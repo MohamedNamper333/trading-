@@ -1,0 +1,41 @@
+{
+  "dataset": "EURUSD_M1_TRAINING_READY",
+  "market": "EURUSD",
+  "source": "Dukascopy-derived M1 Bid data",
+  "status": "verified_local_not_uploaded_binary",
+  "parts": 18,
+  "total_rows": 8220892,
+  "first_timestamp_utc": "2003-05-04T21:00:00Z",
+  "last_timestamp_utc": "2026-08-28T20:59:00Z",
+  "timestamp_order": "strictly_increasing",
+  "duplicate_timestamps": 0,
+  "ohlc_invariant_violations": 0,
+  "long_flat_runs_ge_60m": 0,
+  "remaining_flat_rows": 100533,
+  "part_boundary_gap_minutes": 1,
+  "part_files": [
+    "EURUSD_M1_TRAINING_READY_PART_001.csv",
+    "EURUSD_M1_TRAINING_READY_PART_002.csv",
+    "EURUSD_M1_TRAINING_READY_PART_003.csv",
+    "EURUSD_M1_TRAINING_READY_PART_004.csv",
+    "EURUSD_M1_TRAINING_READY_PART_005.csv",
+    "EURUSD_M1_TRAINING_READY_PART_006.csv",
+    "EURUSD_M1_TRAINING_READY_PART_007.csv",
+    "EURUSD_M1_TRAINING_READY_PART_008.csv",
+    "EURUSD_M1_TRAINING_READY_PART_009.csv",
+    "EURUSD_M1_TRAINING_READY_PART_010.csv",
+    "EURUSD_M1_TRAINING_READY_PART_011.csv",
+    "EURUSD_M1_TRAINING_READY_PART_012.csv",
+    "EURUSD_M1_TRAINING_READY_PART_013.csv",
+    "EURUSD_M1_TRAINING_READY_PART_014.csv",
+    "EURUSD_M1_TRAINING_READY_PART_015.csv",
+    "EURUSD_M1_TRAINING_READY_PART_016.csv",
+    "EURUSD_M1_TRAINING_READY_PART_017.csv",
+    "EURUSD_M1_TRAINING_READY_PART_018.csv"
+  ],
+  "limitations": [
+    "Dataset is Bid-only.",
+    "Ask, Spread and Tick Volume are not present.",
+    "Binary CSV parts could not be pushed through the currently available GitHub connector because it does not accept local binary file paths."
+  ]
+}
